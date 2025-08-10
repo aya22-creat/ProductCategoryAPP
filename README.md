@@ -13,7 +13,7 @@
 
 
 # 1. Clone the project
-git clone https://github.com/username/ProductCategoryApp.git
+git clone https://github.com/aya22-creat/ProductCategoryApp.git
 cd ProductCategoryApp/ProductCategoryApp.API
 
 # 2. Restore packages
@@ -24,3 +24,4 @@ dotnet ef database update --project ../ProductCategoryApp.Infrastructure --start
 
 # 4. Run the project
 dotnet run
+
