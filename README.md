@@ -19,9 +19,13 @@ cd ProductCategoryApp/ProductCategoryApp.API
 # 2. Restore packages
 dotnet restore
 
-# 3. Create the database and apply migrations
+# 3️ (Optional) Install EF Core tools if not already installed
+dotnet tool install --global dotnet-ef
+
+# 4. Create the database and apply migrations
 dotnet ef database update --project ../ProductCategoryApp.Infrastructure --startup-project ./
 
-# 4. Run the project
+# 5. Run the project
 dotnet run
+
 
